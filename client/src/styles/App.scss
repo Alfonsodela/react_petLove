@@ -1,18 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 
-@import "./common/vars.scss";
-@import "./pages/Home/home";
-@import "./pages/About/about";
-@import "./pages/SignUp/signUp";
-@import "./pages/Dashboard/dashboard";
-@import "./components/ChatContainer/chatContainer";
-@import "./components/ChatInput/chatInput";
-@import "./components/ChatHeader/chatHeader";
-@import "./components/ChatDisplay/chatDisplay";
-@import "./components/Chat/chat";
-@import "./components/AuthModal/authModal";
-@import "./components/Nav/Nav";
-@import "./components/MatchesDisplay/matchesDisplay";
+@import "./vars.scss";
+@import "../pages/Home/home";
+@import "../pages/About/about";
+@import "../pages/SignUp/signUp";
+@import "../pages/Dashboard/dashboard";
+@import "../components/ChatContainer/chatContainer";
+@import "../components/ChatInput/chatInput";
+@import "../components/ChatHeader/chatHeader";
+@import "../components/ChatDisplay/chatDisplay";
+@import "../components/Chat/chat";
+@import "../components/AuthModal/authModal";
+@import "../components/Nav/Nav";
+@import "../components/MatchesDisplay/matchesDisplay";
 // get our fontawesome imports
 html, body {
   margin: 0;
