@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import axios from "axios";
 import woolBall from "../../images/woolBall.svg";
 import closeicon from "../../images/closeIcon.svg";
 import { useUser } from "../../hooks";
-// import useUser from "../../hooks/useUser";
 
 const Authmodal = ({ setShowModal, isSignUp }) => {
   const [email, setEmail] = useState(null);

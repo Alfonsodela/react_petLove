@@ -1,11 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import axios from "axios";
 import Nav from "../../components/Nav/Nav";
-// import { userApi } from "../../services";
 import  {useUser}  from "../../hooks"
-
-//TODO: Poner el codigo en estilos o react para que el input de gender_identity y gender_interest se pinten como seleccionados en el signup
 
 const Signup = () => {
   let localStorageUserId = localStorage.getItem("UserId");
